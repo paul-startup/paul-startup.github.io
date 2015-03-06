@@ -3,17 +3,23 @@ html {
   	font-family: 'Open Sans', sans-serif;
 	background-color: #e5e5e5;
 }
-.header {
+header {
 	color:#FFFCEE;
-	background-image: url(img/surf.jpeg);
 	background-size: 100% 100%;
 	height:250px;
 	position: relative;
 }
-.header h1 {
+header h1 {
 	font-size: 80px;
 	position: absolute;
 	left:50px;
+}
+.header-home {
+	background-image: url(../img/surf.jpeg);	
+}
+
+.header-contact {
+	background-image: url(../img/sea.jpg);
 }
 #navigation {
 	list-style: none;
@@ -62,15 +68,4 @@ body {
 
 #passions {
 	padding-right: 0px;
-}
-
-/*#contact {
-	width:90%;
-	margin-left: 6.8%;
-	font-family: lato;
-	padding-top: 30px;
-}
-
-#contact ul {
-	list-style: none;*/
 }
