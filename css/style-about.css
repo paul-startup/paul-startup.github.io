@@ -1,6 +1,7 @@
 /*@import url(http://fonts.googleapis.com/css?family=Lato|Open+Sans);*/
 html {
   	font-family: 'Open Sans', sans-serif;
+  	/*font-family: 'Lora', serif;*/
 	background-color: #e5e5e5;
 }
 header {
@@ -38,6 +39,11 @@ header h1 {
 #navigation a {	
 	color:#FFFCEE;
 	text-decoration: none;
+}
+
+#navigation a:hover {
+	background-color: #e8e1d7;
+	color: black;
 }
 body {
 	position:relative;

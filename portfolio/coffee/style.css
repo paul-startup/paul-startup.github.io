@@ -4,6 +4,60 @@
   src: url('type/LeagueGothic-Regular.otf') format('opentype');
 }
 
+body {
+	max-width: 70%;
+}
 h1, h2, li, p, footer {
 	font-family: 'LeagueGothic';
+}
+
+header, footer {
+	background-color: cyan;
+}
+
+.title, .top-nav {
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 60%;
+	clear: both;
+	text-align: center;
+}
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+h1, .line1, .line2 {
+	line-height: 30px;
+	margin-top: 0;
+	margin-bottom:0;
+}
+
+.line1 {
+	text-transform: lowercase;
+	border-bottom: dotted;
+}
+.line2 {
+	text-transform: uppercase;
+}
+.left-col, .right-col {
+	position: relative;
+	margin: auto 0;
+	width: 35%;
+	display: inline-block;
+	text-align: center;
+	padding: 0 7%;
+
+}
+
+.footer {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	width:100%;
+
 }

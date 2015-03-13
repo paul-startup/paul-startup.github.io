@@ -1,0 +1,62 @@
+html {
+	min-height: 100%;
+	min-width: 100%;
+	height: 100%;
+	width: 100%
+}
+
+.content {
+	font-family: 'Lantinghei SC', 'Oxygen', sans-serif;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	top:27vh;
+	margin-bottom: 20px;
+}
+
+.home-background {
+	background-image:url(../img/sea.jpg);
+	background-size: 100%;
+	opacity: 0.5;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.GYE, .MTL, .NYC {
+	text-decoration: line-through;
+}
+
+.navigation {
+	font-family:'Lantinghei SC', 'Bitter', serif;
+	padding-top:5px;
+	padding-bottom:5px;
+	list-style: none;
+	padding-left: 0;
+	position: fixed;
+	text-align: center;
+	top:50vh;
+	width: 100%;
+
+}
+
+.navigation li{
+	display: inline-block;
+	height:20px;
+	width:110px;
+	font-size: 20px;
+}
+
+.navigation a{
+	color: #4A7589;
+	text-decoration: none;
+}
+
+.navigation a:hover{
+	background-color: #4A7589;
+	color:white;
+	font-weight:bold;
+}
