@@ -95,7 +95,7 @@ header h1 {
 
 
 /* Responsive for mobile ----------- */
-@media only screen and (min-width: 740px) {
+@media only screen and (max-device-width: 736px) {
 /* Styles */
 #navigation-full {
 	display: none;
@@ -107,9 +107,17 @@ header h1 {
 
 header h1 {
 	font-size: 60px;
+	left:600px;
+	color: #898177;
 }
 
 .paragraph p{
+	font-size: 26px;
 	margin: 14px auto;
 	width:90%;
+}
+
+.photo {
+	height:350px;
+	width: 350px;
 }
