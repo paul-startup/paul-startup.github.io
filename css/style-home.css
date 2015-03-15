@@ -63,7 +63,7 @@ html {
 }
 
 /* Responsive for mobile ----------- */
-@media only screen and (max-device-width: 736px) {
+@media only screen and (max-device-width: 736px){
 /* Styles */
 	h1 {
 		font-size: 50px;
@@ -71,12 +71,23 @@ html {
 	.body {
 		font-size: 26px;
 	}
-	.navigation {
-		top:40vh;
-	}
 	.navigation li {
 		font-size: 30px;
 		font-weight: bolder;
 		width:200px;
+	}
+}
+
+@media only screen and (max-device-width: 736px) and (orientation : landscape){
+/* Styles */
+	.navigation {
+		top:57vh;
+	}
+}
+
+@media only screen and (max-device-width: 736px) and (orientation : portrait){
+/* Styles */
+	.navigation {
+		top:38vh;
 	}
 }
