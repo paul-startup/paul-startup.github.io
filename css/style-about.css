@@ -1,77 +1,115 @@
-/*@import url(http://fonts.googleapis.com/css?family=Lato|Open+Sans);*/
 html {
-  	font-family: 'Open Sans', sans-serif;
-  	/*font-family: 'Lora', serif;*/
 	background-color: #e5e5e5;
+  	font-family: 'Lantinghei SC', 'Oxygen', sans-serif;
 }
+
+body {
+	position:relative;
+}
+
+/* Site Header----------- */
 header {
-	color:#FFFCEE;
 	background-size: 100% 100%;
+	color:#FFFCEE;
 	height:250px;
 	position: relative;
 }
+
 header h1 {
 	font-size: 80px;
-	position: absolute;
 	left:50px;
+	position: absolute;
 }
-.header-home {
+
+.header-about {
 	background-image: url(../img/surf.jpeg);	
 }
 
 .header-contact {
 	background-image: url(../img/sea.jpg);
 }
-#navigation {
-	list-style: none;
-	float:right;
-	height:30px;
-	right:20px;
-	bottom: 0px;
-	position: absolute;
-}
-#navigation li {
-	display: inline;
-	text-align: justify;
-	margin: 0 20px;
+
+/* Navigation ----------- */
+.slicknav_menu, #menu {
+	display:none;
 }
 
-#navigation a {	
+#navigation-full {
+	bottom: 0px;
+	float:right;
+	font-family:'Lantinghei SC', 'Bitter', serif;
+	height:30px;
+	list-style: none;
+	position: absolute;
+	right:20px;
+}
+
+#navigation-full li {
+	display: inline;
+	margin: 0 20px;
+	text-align: justify;
+}
+
+#navigation-full a {	
 	color:#FFFCEE;
 	text-decoration: none;
 }
 
-#navigation a:hover {
+#navigation-full a:hover {
 	background-color: #e8e1d7;
 	color: black;
 }
-body {
-	position:relative;
-}
-#photo {
+
+/* Profile Photo----------- */
+.photo {
 	border-radius:50%;
 	display:block;
-	width: 250px;
 	height: 250px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
-	}
-.paragraph {
-	width:90%;
-	margin:0 auto;
+	width: 250px;
 }
+
+/* Text content ----------- */
+.paragraph {
+	font-size: 14px;
+	margin:0 auto;
+	text-align: center;
+	width:90%;
+}
+
 .paragraph p {
 	display: inline-block;
 	padding: 0 15px; 
 }
 
-#intro, #second, #passions{
-	width:30%;
-	font-family: lato;
+.intro, .second, .passions{
 	text-align: justify;
+	width:30%;
 }
 
-#passions {
+.passions {
 	padding-right: 0px;
+}
+
+
+/* Responsive for mobile ----------- */
+@media only screen and (max-width: 480px) {
+/* Styles */
+#navigation-full {
+	display: none;
+}
+
+.slicknav_menu {
+	display:block;
+}
+
+header h1 {
+	font-size: 60px;
+}
+
+.paragraph p{
+	margin: 14px auto;
+	width:90%;
 }
