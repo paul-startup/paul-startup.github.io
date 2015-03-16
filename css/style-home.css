@@ -67,27 +67,23 @@ html {
 /* Responsive for mobile ----------- */
 @media screen (max-width: 736px){
 /* Styles */
-/*	h1 {
-		font-size: 50px;
+	html {
+		font-size: 120%;
 	}
-	.body {
-		font-size: 26px;
-	}*/
 	.navigation li {
-/*		font-size: 30px;*/
 		font-weight: bolder;
 		width:200px;
 	}
 }
 
-@media only screen and (max-device-width: 736px) and (orientation : landscape){
+@media screen and (max-width: 736px) and (orientation : landscape){
 /* Styles */
 	.navigation {
 		top:57vh;
 	}
 }
 
-@media only screen and (max-device-width: 736px) and (orientation : portrait){
+@media screen and (max-width: 736px) and (orientation : portrait){
 /* Styles */
 	.navigation {
 		top:35vh;
