@@ -65,27 +65,35 @@ html {
 }
 
 /* Responsive for mobile ----------- */
-@media screen (max-width: 736px){
+@media screen and (max-width: 736px){
 /* Styles */
 	html {
-		font-size: 120%;
+		font-size: 2em;
 	}
+	/*.Title {
+		top:25vh;
+	}
+	.Body {
+		top:25vh;
+	}*/
 	.navigation li {
 		font-weight: bolder;
 		width:200px;
 	}
+
+	.navigation {
+		top:67vh;
+	}
 }
 
-@media screen and (max-width: 736px) and (orientation : landscape){
-/* Styles */
+/*@media screen and (min-width: 736px) and (orientation : landscape){
 	.navigation {
 		top:57vh;
 	}
 }
 
-@media screen and (max-width: 736px) and (orientation : portrait){
-/* Styles */
+@media screen and (min-width: 736px) and (orientation : portrait){
 	.navigation {
 		top:35vh;
 	}
-}
+}*/
