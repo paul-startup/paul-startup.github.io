@@ -65,12 +65,15 @@ html {
 }
 
 /* Responsive for mobile ----------- */
-@media only screen and (max-width: 414px){
+@media screen and (max-width: 736px){
 /* Styles */
 	html {
 		font-size: 1.5em;
 	}
-	
+	.Body {
+		color:green;
+	}
+
 	.navigation li {
 		font-weight: bolder;
 		width:200px;
