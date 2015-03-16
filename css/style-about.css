@@ -95,7 +95,7 @@ header h1 {
 
 
 /* Responsive for mobile ----------- */
-@media only screen and (max-device-width: 736px) {
+@media screen (max-width: 736px) {
 /* Styles */
 #navigation-full {
 	display: none;
