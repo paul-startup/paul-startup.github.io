@@ -65,7 +65,7 @@ html {
 }
 
 /* Responsive for mobile ----------- */
-@media screen and (max-width: 736px){
+@media screen and (min-width: 736px){
 /* Styles */
 	html {
 		font-size: 1.5em;
