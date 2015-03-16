@@ -65,17 +65,15 @@ html {
 }
 
 /* Responsive for mobile ----------- */
-@media screen and (min-width: 736px){
+@media screen and (max-width: 736px){
 /* Styles */
 	html {
 		font-size: 2em;
 	}
-	/*.Title {
-		top:25vh;
-	}
 	.Body {
-		top:25vh;
-	}*/
+		position: fixed;
+		top:45vh;
+	}
 	.navigation li {
 		font-weight: bolder;
 		width:200px;
