@@ -65,26 +65,29 @@ html {
 }
 
 /* Responsive for mobile ----------- */
-@media screen and (max-width: 736px){
+@media only screen and (max-width: 414px){
 /* Styles */
 	html {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
-	}
+	
 	.navigation li {
 		font-weight: bolder;
 		width:200px;
 	}
-}
-
-@media screen and (max-width: 736px) and (orientation : landscape){
 	.navigation {
 		top:57vh;
 	}
 }
 
-@media screen and (max-width: 736px) and (orientation : portrait){
+/*@media screen and (max-width: 414px) and (orientation : landscape){
+	.navigation {
+		top:57vh;
+	}
+}
+
+@media screen and (max-width: 414px) and (orientation : portrait){
 	.navigation {
 		top:35vh;
 	}
-}
+}*/
