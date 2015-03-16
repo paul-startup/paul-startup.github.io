@@ -65,34 +65,26 @@ html {
 }
 
 /* Responsive for mobile ----------- */
-@media screen and (min-width: 736px){
+@media screen and (max-width: 736px){
 /* Styles */
 	html {
 		font-size: 2em;
 	}
-	.Body {
-		color:green;
-		position: fixed;
-		top:45vh;
 	}
 	.navigation li {
 		font-weight: bolder;
 		width:200px;
 	}
-
-	.navigation {
-		top:67vh;
-	}
 }
 
-/*@media screen and (min-width: 736px) and (orientation : landscape){
+@media screen and (max-width: 736px) and (orientation : landscape){
 	.navigation {
 		top:57vh;
 	}
 }
 
-@media screen and (min-width: 736px) and (orientation : portrait){
+@media screen and (max-width: 736px) and (orientation : portrait){
 	.navigation {
 		top:35vh;
 	}
-}*/
+}
