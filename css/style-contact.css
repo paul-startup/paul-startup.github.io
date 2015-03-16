@@ -1,0 +1,115 @@
+html {
+	background-color: #e5e5e5;
+  	font-family: 'Lantinghei SC', 'Oxygen', sans-serif;
+}
+
+body {
+	position:relative;
+}
+
+/* Site Header----------- */
+header {
+	background-size: 100% 100%;
+	color:#FFFCEE;
+	height:250px;
+	position: relative;
+}
+
+header h1 {
+	font-size: 80px;
+	left:50px;
+	position: absolute;
+}
+
+.header-contact {
+	background-image: url(../img/sea.jpg);
+}
+
+/* Navigation ----------- */
+.slicknav_menu, #menu {
+	display:none;
+}
+
+#navigation-full {
+	bottom: 0px;
+	float:right;
+	font-family:'Lantinghei SC', 'Bitter', serif;
+	height:30px;
+	list-style: none;
+	position: absolute;
+	right:20px;
+}
+
+#navigation-full li {
+	display: inline;
+	margin: 0 20px;
+	text-align: justify;
+}
+
+#navigation-full a {	
+	color:#FFFCEE;
+	text-decoration: none;
+}
+
+#navigation-full a:hover {
+	background-color: #e8e1d7;
+	color: black;
+}
+
+
+
+/* Contact info ----------- */
+.contact {
+	margin: 0 auto;
+	position:relative;
+	text-align: left;
+	width: 100%;
+}
+
+.twitter, .instagram, .email, .phone{
+	clear:left;
+	display: inline-block;
+	height:50px;
+	margin: 1.5%;
+	position:relative;
+	width:250px;
+}
+
+.logo {
+	height:35px;
+	margin-right: 15px;
+	width:35px;
+}
+
+.logo-ig {
+	height:27px;
+	margin-right: 23px;
+	width:27px;
+}
+
+.contact a{
+	margin: 15px auto;
+}
+/* Responsive for mobile ----------- */
+@media only screen and (max-device-width: 736px) {
+/* Styles */
+#navigation-full {
+	display: none;
+}
+
+.slicknav_menu {
+	display:block;
+}
+
+header h1 {
+	font-size: 60px;
+	left:600px;
+	color: #898177;
+}
+
+.paragraph p{
+	font-size: 26px;
+	margin: 14px auto;
+	width:90%;
+}
+

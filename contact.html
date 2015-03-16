@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title>Contact Paul</title>
-		<link href='http://fonts.googleapis.com/css?family=Lato|Open+Sans' rel='stylesheet' type='text/css'>
-		<link href="css/style.css" rel="stylesheet" type="text/css">
+   		<meta charset="utf-8">
+		<title>About Paul</title>
+		<link rel="stylesheet" href="SlickNav/slicknav.css" />
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Bitter:400,700|Oxygen' rel='stylesheet' type='text/css'>
+    	<link href="css/style-contact.css" rel="stylesheet" type ="text/css">
 	</head>
 	<body>
 		<header class="header-contact">
 			<h1>Contact Paul</h1>
 			<nav>
-				<ul id="navigation">
-					<li><a href="index.html">Home</a></li>
+				<ul id="navigation-full">
+					<li><a href="about.html">About Me</a></li>
+					<li><a href="about.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				<ul id="menu">
 					<li><a href="about.html">About Me</a></li>
 					<li><a href="portfolio.html">Portfolio</a></li>
 					<li><a href="contact.html">Contact</a></li>
@@ -19,10 +25,17 @@
 			</nav>
 		</header>
 		<div class="contact">
-			<p class="twitter"><a href="http://www.twitter.com/pherrera">@pherrera</a></p>
-			<p class="instagram"><a href="https://instagram.com/pherrera82">pherrera82</a></p>
-			<p class="email"><a href="mailto:paulherrera@gmail.com">paulherrera@gmail.com</a></p>
-			<p class="phone"><a href="tel:(917)330-2542">(917)330-2542</a></p>
+			<p class="twitter"><img class="logo" src="img/twitter.png" alt="Twitter"><a href="http://www.twitter.com/pherrera">@pherrera</a></p>
+			<p class="instagram"><img class="logo-ig" src="img/instagram.png" alt="Instagram"><a href="https://instagram.com/pherrera82">pherrera82</a></p>
+			<p class="email"><img class="logo" src="img/mail.png" alt="Email"><a href="mailto:paulherrera@gmail.com">paulherrera@gmail.com</a></p>
+			<p class="phone"><img class="logo" src="img/phone.png" alt="Phone"><a href="tel:(917)330-2542">(917)330-2542</a></p>
 		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="SlickNav/jquery.slicknav.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#menu').slicknav();
+			});
+			</script>
 	</body>
 </html>
