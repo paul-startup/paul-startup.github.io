@@ -26,9 +26,6 @@ header h1 {
 	background-image: url(../img/surf.jpeg);	
 }
 
-.header-contact {
-	background-image: url(../img/sea.jpg);
-}
 
 /* Navigation ----------- */
 .slicknav_menu, #menu {
@@ -82,7 +79,7 @@ header h1 {
 
 .paragraph p {
 	display: inline-block;
-	padding: 0 15px; 
+	padding: 0 0.938em; 
 }
 
 .intro, .second, .passions{
@@ -91,7 +88,7 @@ header h1 {
 }
 
 .passions {
-	padding-right: 0px;
+	padding-right: 0em;
 }
 
 
@@ -121,4 +118,5 @@ header h1 {
 .photo {
 	height:350px;
 	width: 350px;
+}
 }

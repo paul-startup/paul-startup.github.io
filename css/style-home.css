@@ -74,19 +74,16 @@ html {
 		font-weight: bolder;
 		width:200px;
 	}
+}
+
+@media screen and (max-width: 480px) and (orientation : landscape){
 	.navigation {
 		top:57vh;
 	}
 }
 
-/*@media screen and (max-width: 414px) and (orientation : landscape){
-	.navigation {
-		top:57vh;
-	}
-}
-
-@media screen and (max-width: 414px) and (orientation : portrait){
+@media screen and (max-width: 480px) and (orientation : portrait){
 	.navigation {
 		top:35vh;
 	}
-}*/
+}

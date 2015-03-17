@@ -78,20 +78,22 @@ header h1 {
 .logo {
 	height:35px;
 	margin-right: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
 	width:35px;
 }
 
 .logo-ig {
-	height:27px;
+	height:23px;
 	margin-right: 23px;
-	width:27px;
+	width:23px;
 }
 
 .contact a{
 	margin: 15px auto;
 }
 /* Responsive for mobile ----------- */
-@media only screen and (max-device-width: 736px) {
+@media screen and (max-width: 480px) {
 /* Styles */
 #navigation-full {
 	display: none;
@@ -102,14 +104,14 @@ header h1 {
 }
 
 header h1 {
-	font-size: 60px;
-	left:600px;
+	font-size: 3.75em;
+	left:4em;
 	color: #898177;
 }
 
 .paragraph p{
-	font-size: 26px;
+	font-size: 1.625em;
 	margin: 14px auto;
 	width:90%;
 }
-
+}
